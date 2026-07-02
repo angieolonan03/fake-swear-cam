@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #08080d;
+  --panel: #0f0f18;
+  --red: #ff2b4a;
+  --blue: #00e5ff;
+  --yellow: #ffd400;
+  --magenta: #ff00c8;
+  --text: #eef0ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "JetBrains Mono", "Courier New", monospace;
+  overflow: hidden;
+}
